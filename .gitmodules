@@ -1,0 +1,3 @@
+[submodule "deps/UJoy"]
+	path = deps/UJoy
+	url = https://github.com/mcindrich/UJoy
