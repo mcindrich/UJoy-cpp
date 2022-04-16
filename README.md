@@ -1,37 +1,46 @@
 # UJoy++ - C++ wrapper for [UJoy](https://github.com/mcindrich/UJoy) library
 
 # Docs - the code is under the `ujoy` namespace
+
+## Include
+
+```c++
+#include <UJoy++.hpp>
+```
+
+## API
+
 ```c++
 // Joystick button enum
 enum class Button
 {
-    DPadUp = UJoyButtonDPadUp,
-    DPadDown = UJoyButtonDPadDown,
-    DPadLeft = UJoyButtonDPadLeft,
-    DPadRight = UJoyButtonDPadRight,
-    Start = UJoyButtonStart,
-    Back = UJoyButtonBack,
-    LS = UJoyButtonLS,
-    RS = UJoyButtonRS,
-    LB = UJoyButtonLB,
-    RB = UJoyButtonRB,
-    A = UJoyButtonA,
-    B = UJoyButtonB,
-    X = UJoyButtonX,
-    Y = UJoyButtonY,
-    Menu = UJoyButtonMenu,
+    DPadUp,
+    DPadDown,
+    DPadLeft,
+    DPadRight,
+    Start,
+    Back,
+    LS,
+    RS,
+    LB,
+    RB,
+    A,
+    B,
+    X,
+    Y,
+    Menu,
 };
 // Joystick axis enum
 enum class Axis
 {
-    DPadX = UJoyAxisDPadX,
-    DPadY = UJoyAxisDPadY,
-    LT = UJoyAxisLT,
-    RT = UJoyAxisRT,
-    LSX = UJoyAxisLSX,
-    LSY = UJoyAxisLSY,
-    RSX = UJoyAxisRSX,
-    RSY = UJoyAxisRSY,
+    DPadX,
+    DPadY,
+    LT,
+    RT,
+    LSX,
+    LSY,
+    RSX,
+    RSY,
 };
 // Main API class
 class Joystick
